@@ -12,7 +12,7 @@
   {
     "url": "https://stefanbohacek.com/blog/most-popular-fediverse-posts-june-6-2024-edition/",
     "title": "Most popular fediverse posts: June 6, 2024 Edition",
-    "description": "Searching for popular posts on federated social media. ",
+    "description": "Searching for popular posts on federated social media.",
     "date": "2024-06-06",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -32,7 +32,7 @@
   {
     "url": "https://stefanbohacek.com/blog/impact-of-fediverse-clients-on-the-use-of-alt-text/",
     "title": "Impact of fediverse clients on the use of alt text",
-    "description": "Analyzing the ways fediverse apps handle image descriptions. ",
+    "description": "Analyzing the ways fediverse apps handle image descriptions.",
     "date": "2024-05-14",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -45,9 +45,7 @@
     "description": "How long does it take a fediverse post to reach its audience? ",
     "date": "2024-05-10",
     "authors": ["Stefan Hayden"],
-    "tags": [],
-    "thumbnail": "https://stefanhayden.com/img/backpack.jpg",
-    "thumbnail_description": "A detailed vector drawing of a yellow backpack."
+    "tags": []
   },
   {
     "url": "https://stefanbohacek.com/blog/data-on-sending-a-post-into-the-fediverse/",
@@ -82,7 +80,7 @@
   {
     "url": "https://stefanbohacek.com/blog/analyzing-fediverse-followers/",
     "title": "Analyzing fediverse followers",
-    "description": "A look at 6,000+ people following my 40+ creative bots. ",
+    "description": "A look at 6,000+ people following my 40+ creative bots.",
     "date": "2024-04-04",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -92,7 +90,7 @@
   {
     "url": "https://stefanbohacek.com/blog/alttexthealthcheck-image-accessibility-report-1/",
     "title": "Alt Text Health Check image accessibility report #1",
-    "description": "Looking at a growing trend of images being posted without a description. ",
+    "description": "Looking at a growing trend of images being posted without a description.",
     "date": "2023-10-26",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -102,7 +100,7 @@
   {
     "url": "https://stefanbohacek.com/blog/analyzing-the-registration-date-of-7925-fediverse-domains/",
     "title": "Analyzing the registration date of 7,925 fediverse domains",
-    "description": "It's a good time to be a domain registrar. ",
+    "description": "It's a good time to be a domain registrar.",
     "date": "2023-05-23",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -112,7 +110,7 @@
   {
     "url": "https://stefanbohacek.com/blog/exploring-your-fediverse-connections/",
     "title": "Exploring your fediverse connections",
-    "description": "Learning about fediverse servers I'm connected to. ",
+    "description": "Learning about fediverse servers I'm connected to.",
     "date": "2023-05-22",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -122,7 +120,7 @@
   {
     "url": "https://stefanbohacek.com/blog/a-netizens-guide-to-mastodon-fediverse/",
     "title": "A netizen's guide to Mastodon and the fediverse",
-    "description": "Learning about the fediverse from the people who use it. ",
+    "description": "Learning about the fediverse from the people who use it.",
     "date": "2023-03-02",
     "authors": ["Stefan Bohacek"],
     "tags": [],
@@ -132,11 +130,34 @@
   {
     "url": "https://stefanbohacek.com/blog/exploring-the-bots-people-make-and-follow-in-the-fediverse/",
     "title": "Exploring the bots people make and follow in the fediverse",
-    "description": "A follow-up to my article on the most popular Twitter bots. ",
+    "description": "A follow-up to my article on the most popular Twitter bots.",
     "date": "2022-12-22",
     "authors": ["Stefan Bohacek"],
     "tags": [],
     "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2022/12/botsinspace-popular-fx-v2.jpg",
     "thumbnail_description": "A tinted collage showing bots featured in the article."
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4421665",
+    "title": "Section 230 and the Fediverse: The 'Instances' of Mastodon's Immunity and Liability",
+    "description": "Questions about Mastodon's liability and immunity at various levels.",
+    "date": "2023-05-02",
+    "authors": ["Raghav Ahooja"],
+    "tags": []
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4421665",
+    "title": "Exploring Platform Migration Patterns between Twitter and Mastodon: A User Behavior Study",
+    "description": "What are migration patterns, how different platforms impact user behaviors, and how migrated users settle in the migration process.",
+    "date": "2023-05-16",
+    "authors": [
+      "Ujun Jeong",
+      "Paras Sheth",
+      "Anique Tahir",
+      "Faisal Alatawi",
+      "H. Russell Bernard",
+      "Huan Liu"
+    ],
+    "tags": []
   }
 ]

@@ -1,8 +1,9 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	// eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy({
 		"./public/": "/",

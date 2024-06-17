@@ -13,5 +13,5 @@ The Fediverse Explorations site is currently maintained by [Stefan Bohacek](http
 
 Here's how to get in touch:
 
-- reach out to [@FediverseExplorations]() on Mastodon
+- reach out to [@FediverseExplorations](https://mastodon.social/@FediverseExplorations) on Mastodon
 - send email to [stefan@fediverseexplorations.org](mailto:stefan@fediverseexplorations.org)

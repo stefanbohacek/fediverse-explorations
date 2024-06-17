@@ -17,27 +17,34 @@ eleventyNavigation:
     </p>
   </div>
 </div>
+<div class="alert alert-secondary" role="alert">
+  <em>All links listed below lead to external sites.</em>
+</div>
 <div class="mt-5 pt-3">
-{% for article in articles %}
-    <div class="d-flex">
-      <div class="flex-shrink-0">
-        <a href="{{ article.url }}">
-          <img loading="lazy" width="120px" src="{{article.thumbnail}}" alt="{{article.thumbnail_description}}">
-        </a>
-      </div>
-      <div class="flex-grow-1 ms-3">
-        <p class="fw-bold">
-          <a href="{{ article.url }}">
-            {{article.title}}
-          </a>
-        </p>
-        <p>
-        {{article.description}}
-        </p>
-        <p class="text-muted">
-        <small>📅  {{ article.date }} by {% for author in article.authors %}{% if forloop.last and forloop.index > 1 %} and {% endif %}{{author}}{% if not forloop.last %}, {% endif %}{% endfor %}</small>
-        </p>
-      </div>
+  {% for article in articles %}<div class="d-flex align-items-start">
+    <div class="flex-shrink-0">
+      <a href="{{ article.url }}">
+      {% if article.thumbnail %}<img class="border rounded" loading="lazy" width="120px" src="{{article.thumbnail}}" alt="{{article.thumbnail_description}}">{% else %}<img class="border rounded" loading="lazy" width="120px" src="https://generative-placeholders.glitch.me/image?width=120&height=77" alt="An abstract art placeholder image">{% endif %}
+      </a>
     </div>
-{% endfor %}
+    <div class="flex-grow-1 ms-3">
+      <p class="fw-bold">
+        <a href="{{ article.url }}">{{article.title}}</a> <small class="text-muted">{{article.domain}}</small>
+      </p>
+      <p>
+      {{article.description}}
+      </p>
+      <p class="text-muted">
+      <small>📅  {{ article.date }} by {% for author in article.authors %}{% if forloop.last and forloop.index > 1 %} and {% endif %}{{author}}{% if not forloop.last %}, {% endif %}{% endfor %}</small>
+      </p>
+    </div>
+  </div>{% endfor %}
+</div>
+<div class="mt-5 pt-3">
+  <h2>More links</h2>
+  <ul class="mt-3">
+    <li>
+      <a href="https://www.pedrolr.es/research/infonomy2024/investigacionfediverso.html">Research about the Fediverse (Investigación sobre el Fediverso)</a>
+    </li>
+  </ul>
 </div>

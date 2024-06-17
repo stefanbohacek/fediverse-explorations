@@ -17,6 +17,8 @@ articles
       month: "long",
       day: "numeric",
     });
+    const { hostname } = new URL(article.url);
+    article.domain = hostname;
   });
 
 module.exports = () => {
