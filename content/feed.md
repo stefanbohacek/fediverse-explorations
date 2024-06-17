@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
     <link href="{{ article.url }}"/>
     <updated>{{ article.date }}</updated>
     <id>{{ article.url }}</id>
-    <content type="html"></content>
+    <content type="html">{{ article.description }}</content>
   </entry>
   {% endfor %}
 </feed>
