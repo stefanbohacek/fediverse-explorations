@@ -44,7 +44,8 @@ eleventyNavigation:
   <h2>More links</h2>
   <ul class="mt-3">
     <li>
-      <a href="https://www.pedrolr.es/research/infonomy2024/investigacionfediverso.html">Research about the Fediverse (Investigación sobre el Fediverso)</a>
+      <a href="https://www.pedrolr.es/research/infonomy2024/investigacionfediverso.html">Research about the Fediverse (Investigación sobre el Fediverso)</a> <small class="text-muted">pedrolr.es</small>
+      
     </li>
   </ul>
 </div>
