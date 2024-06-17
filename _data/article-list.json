@@ -138,6 +138,14 @@
     "thumbnail_description": "A tinted collage showing bots featured in the article."
   },
   {
+    "url": "https://www.deweysquare.com/digital/twitter-migration-report/",
+    "title": "X/Twitter Migration Report",
+    "description": "The #TwitterMigration continues as users, developers, and technologies are migrating away from increasing chaos and toxicity on Twitter and toward newer, and more open, platforms.",
+    "date": "2023-10-12",
+    "authors": ["Tim Chambers"],
+    "tags": []
+  },
+  {
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4421665",
     "title": "Section 230 and the Fediverse: The 'Instances' of Mastodon's Immunity and Liability",
     "description": "Questions about Mastodon's liability and immunity at various levels.",
