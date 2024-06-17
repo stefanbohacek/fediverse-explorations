@@ -1,0 +1,86 @@
+---
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    {% include "partial-meta.njk" %} <link rel="stylesheet" href="/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <script type="module" src="/js/main.js" defer></script>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <script>
+      const toggleDarkMode = (enabled) => {
+        const stickyTops = [...document.getElementsByClassName("sticky-top")];
+        if (enabled) {
+          document.body.setAttribute('data-bs-theme', 'dark');
+          if (stickyTops && stickyTops.length) {
+            stickyTops.forEach(stickyTop => {
+              stickyTop.classList.add("bg-dark");
+              stickyTop.classList.remove("bg-white");
+            });
+          }
+        } else {
+          document.body.setAttribute('data-bs-theme', 'light');
+          if (stickyTops && stickyTops.length) {
+            stickyTops.forEach(stickyTop => {
+              stickyTop.classList.add("bg-white");
+              stickyTop.classList.remove("bg-dark");
+            });
+          }
+        }
+      }
+      if (window.matchMedia) {
+        toggleDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        toggleDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+      });
+    </script>
+    <header class="d-flex flex-wrap align-items-center">
+      <nav class="nav fixed-top ">
+        <div class="container p-2 bg-body-tertiary rounded">
+          {% set navPages = collections.all | eleventyNavigation %}
+          <ul class="nav ">
+            {% for item in navPages %}
+              <li class="nav-item">
+                <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.key }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-shrink-0 mt-5">
+      <div class="container mt-5">
+        {{ content | safe }}
+      </div>
+    </main>
+    <footer class="footer mt-auto py-5 ">
+      <div class="container pt-3 text-center">
+        <p class="text-body-secondary">
+          Created by
+          <a class="text-body-secondary" href="https://stefanbohacek.com/">Stefan Bohacek</a>
+          with
+          <a class="text-body-secondary" href="https://www.11ty.dev/">11ty</a>.
+        </p>
+      </div>
+      <a
+        id="back-to-top"
+        class="fixed-bottom btn btn-secondary rounded-bottom-0 d-none pl-0"
+        role="button"
+        href="#"
+        title="Back to Top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+          <!--! Font Awesome Free 6.4.2  -->
+          <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6
+            342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path>
+        </svg>
+        <small class="fw-bold">Back to top</small>
+      </a>
+    </footer>
+    {% include "partial-matomo.njk" %}
+  </body>
+</html>

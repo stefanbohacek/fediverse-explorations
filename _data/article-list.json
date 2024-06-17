@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://stefanbohacek.com/blog/fediverse-domain-blocks/",
+    "title": "Fediverse domain blocks",
+    "description": "Exploring fediverse domain blocks, an important tool that keeps the fediverse safe.",
+    "date": "2024-06-16",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/06/fediverse-domain-blocks-thumbnail-tint.png",
+    "thumbnail_description": "A graph chart with nodes representing different fediverse servers. The servers that are the focus of this study are shown in size based on the total number of users on instances blocking each server."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/most-popular-fediverse-posts-june-6-2024-edition/",
+    "title": "Most popular fediverse posts: June 6, 2024 Edition",
+    "description": "Searching for popular posts on federated social media. ",
+    "date": "2024-06-06",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/06/most-popular-fediverse-posts-june-6-2024.png",
+    "thumbnail_description": "A color-tinted screenshot of a scatter chart showing the distribution of fediverse posts from April 23, 2023 to June 10, 2024 based on the number of likes. Most of the data is clustered in the 0 to 1,000 likes range, with a few posts in the 2,000 to 3,000 likes range, and even fewer above that. 5 posts are in the top 5,000 to 6,000 range, most of those posted in July 2023."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/fediverse-activity-report-1/",
+    "title": "Fediverse activity report #1",
+    "description": "Is the activity in the fediverse slowing down? Maybe a little! ",
+    "date": "2024-06-05",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/06/fediverse-activity-report-1-thumbnail-tint.png",
+    "thumbnail_description": "A color-tinted collage of a very long bar chart that was cut up to make each section with its title visible."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/impact-of-fediverse-clients-on-the-use-of-alt-text/",
+    "title": "Impact of fediverse clients on the use of alt text",
+    "description": "Analyzing the ways fediverse apps handle image descriptions. ",
+    "date": "2024-05-14",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/05/mastodon-alt-text-client-apps.png",
+    "thumbnail_description": "A tinted screenshot of a portion of the dataset rendered as a table, with one of the rows filled with bar charts representing data in the given column."
+  },
+  {
+    "url": "https://stefanhayden.com/blog/2024/05/10/mastodon-federation-speed-test/",
+    "title": "How long does a Mastodon post take to federate between servers?",
+    "description": "How long does it take a fediverse post to reach its audience? ",
+    "date": "2024-05-10",
+    "authors": ["Stefan Hayden"],
+    "tags": [],
+    "thumbnail": "https://stefanhayden.com/img/backpack.jpg",
+    "thumbnail_description": "A detailed vector drawing of a yellow backpack."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/data-on-sending-a-post-into-the-fediverse/",
+    "title": "Data on sending a post into the fediverse",
+    "description": "How long does it take a fediverse post to reach its audience? ",
+    "date": "2024-05-08",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/05/sending-data-fediverse-thumbnail.png",
+    "thumbnail_description": "A tinted screenshot of a poll from the article."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/the-ways-we-keep-the-fediverse-sustainable/",
+    "title": "The ways we keep the fediverse sustainable",
+    "description": "Go buy some stickers and plushies! ",
+    "date": "2024-05-08",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/05/sustainable-fediverse-thumbnail.png",
+    "thumbnail_description": "A tinted screenshot showing results of the main poll from the article on the various ways people fund their fediverse communities."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/how-many-fediverse-servers-know-about-my-server/",
+    "title": "How many fediverse servers know about my server?",
+    "description": "How federated is my fediverse server? ",
+    "date": "2024-05-06",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/05/fediverse-servers-peers-thumbnail.png",
+    "thumbnail_description": "TKTKT"
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/analyzing-fediverse-followers/",
+    "title": "Analyzing fediverse followers",
+    "description": "A look at 6,000+ people following my 40+ creative bots. ",
+    "date": "2024-04-04",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/04/bots-graph-thumbnail.jpg",
+    "thumbnail_description": "A cropped screenshot of a graph chart showing relationship between my bots and their followers. Each bot is represented by a circle corresponding to the number of followers, and is connected to dots representing them."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/alttexthealthcheck-image-accessibility-report-1/",
+    "title": "Alt Text Health Check image accessibility report #1",
+    "description": "Looking at a growing trend of images being posted without a description. ",
+    "date": "2023-10-26",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2023/10/alttexthealthcheck-report-01.png",
+    "thumbnail_description": "A tinted screenshot of three posts made by the @AltTextHealthCheck bot showing breakdowns of the data it collects."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/analyzing-the-registration-date-of-7925-fediverse-domains/",
+    "title": "Analyzing the registration date of 7,925 fediverse domains",
+    "description": "It's a good time to be a domain registrar. ",
+    "date": "2023-05-23",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2023/05/7925-fediverse-domains.png",
+    "thumbnail_description": "A tinted screenshot of an unlabeled scatter chart, with most data points grouped on the right."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/exploring-your-fediverse-connections/",
+    "title": "Exploring your fediverse connections",
+    "description": "Learning about fediverse servers I'm connected to. ",
+    "date": "2023-05-22",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2023/05/exploring-fediverse-connections-data-thumbnail.png",
+    "thumbnail_description": "A tinted screenshot of two charts, one showing the popularity of various fediverse platforms (with Mastodon far ahead of the rest), and the other chart showing distribution of domain creation dates, mostly clustered around 2023."
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/a-netizens-guide-to-mastodon-fediverse/",
+    "title": "A netizen's guide to Mastodon and the fediverse",
+    "description": "Learning about the fediverse from the people who use it. ",
+    "date": "2023-03-02",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2023/03/netizens-guide-fediverse.png",
+    "thumbnail_description": "TKTKTK"
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/exploring-the-bots-people-make-and-follow-in-the-fediverse/",
+    "title": "Exploring the bots people make and follow in the fediverse",
+    "description": "A follow-up to my article on the most popular Twitter bots. ",
+    "date": "2022-12-22",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2022/12/botsinspace-popular-fx-v2.jpg",
+    "thumbnail_description": "A tinted collage showing bots featured in the article."
+  }
+]
