@@ -15,6 +15,28 @@ eleventyNavigation:
     <p class="col-md-8 fs-5">
       Collected by <a rel="me" href="https://stefanbohacek.online/@stefan">@stefan</a>.
     </p>
+    <form class="fsb-prompt">
+      <label>Share this page from your fediverse server</label>
+      <div class="fsb-input-group mb-3">
+        <span class="fsb-input-group-text">https://</span>
+        <input required
+          type="text"
+          name="fediverse-domain"
+          placeholder="mastodon.social"
+          class="fsb-input fsb-domain"
+          aria-label="Server domain">
+        <button class="fsb-button"
+          type="submit"><img src="https://fediverse-share-button.stefanbohacek.dev/fediverse-share-button/icons/mastodon.svg"
+            class="fsb-icon"></span>Share</button>
+      </div>
+      <p class="fsb-support-note fsb-d-none">This server does not support sharing. Please visit <a
+          class="fsb-support-note-link"
+          target="_blank"
+          href=""></a>.</p>
+    </form>
+    <link rel="stylesheet" href="https://fediverse-share-button.stefanbohacek.dev/fediverse-share-button/styles.min.css">
+    <script src="https://fediverse-share-button.stefanbohacek.dev/fediverse-share-button/script.min.js" defer class="fsb-script"></script>
+
   </div>
 </div>
 <div class="alert alert-secondary" role="alert">
