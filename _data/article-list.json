@@ -175,5 +175,15 @@
     "date": "2023-05-16",
     "authors": ["Anže Pečar"],
     "tags": []
-  }
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/lisa-melton-the-fediverses-own-algorithm/",
+    "title": "Lisa Melton: The fediverse's own algorithm",
+    "description": "What it takes to power fediverse's curation system.",
+    "date": "2024-06-18",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/06/lisa-melton-charts-breakdown.png",
+    "thumbnail_description": "A pair of two charts: a bar chart showing number of boosts per account for the top 100 most boosted accounts, and a bar pie chart showing the breakdown of original and boosted posts, heavily skewed towards boost."
+  }  
 ]
