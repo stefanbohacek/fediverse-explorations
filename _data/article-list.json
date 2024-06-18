@@ -167,5 +167,13 @@
       "Huan Liu"
     ],
     "tags": []
+  },
+  {
+    "url": "https://fedidevs.com/developers-on-mastodon/",
+    "title": "Mastodon Instances with Software Developers",
+    "description": "Which Mastodon instances have the most software developer accounts.",
+    "date": "2023-05-16",
+    "authors": ["Anže Pečar"],
+    "tags": []
   }
 ]
