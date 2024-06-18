@@ -43,7 +43,7 @@ eleventyNavigation:
   <em>All links listed below lead to external sites.</em>
 </div>
 <div class="mt-5 pt-3">
-  {% for article in articles %}<div class="d-flex align-items-start">
+  {% for article in articles %}<div class="d-flex align-items-start mb-3">
     <div class="flex-shrink-0">
       <a href="{{ article.url }}">
       {% if article.thumbnail %}<img class="border rounded" loading="lazy" width="120px" src="{{article.thumbnail}}" alt="{{article.thumbnail_description}}">{% else %}<img class="border rounded" loading="lazy" width="120px" src="https://generative-placeholders.glitch.me/image?width=120&height=77" alt="An abstract art placeholder image">{% endif %}
