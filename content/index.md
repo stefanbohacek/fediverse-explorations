@@ -10,7 +10,7 @@ eleventyNavigation:
   <div class="container-fluid py-5">
     <h1 class="display-5 fw-bold">{{ site.title }}</h1>
     <p class="col-md-8 fs-4">
-      {{ site.description }}
+      Studies, research papers, and informal polls that explore <a href="https://jointhefediverse.net/">the fediverse</a>.
     </p>
     <p class="col-md-8 fs-5">
       Collected by <a rel="me" href="https://stefanbohacek.online/@stefan">@stefan</a>.
