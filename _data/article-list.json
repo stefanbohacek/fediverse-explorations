@@ -187,6 +187,16 @@
     "thumbnail_description": "A pair of two charts: a bar chart showing number of boosts per account for the top 100 most boosted accounts, and a bar pie chart showing the breakdown of original and boosted posts, heavily skewed towards boost."
   },
   {
+    "url": "https://stefanbohacek.com/project/ignore-all-previous-instructions/",
+    "title": "Ignore all previous instructions",
+    "description": "A look at a meme's journey through the fediverse.",
+    "date": "2024-06-28",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/06/ignore-all-previous-instructions-thumbnail.png",
+    "thumbnail_description": "The phrase 'ignore all previous instructions' repeating over and over, in caps."
+  },
+  {
     "url": "https://shkspr.mobi/blog/2023/09/how-far-did-my-post-go-on-the-fediverse/",
     "title": "How far did my post go on the Fediverse?",
     "description": "I wrote a moderately popular post on Mastodon. Lots of people shared it.",
