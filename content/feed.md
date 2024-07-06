@@ -8,7 +8,6 @@ eleventyExcludeFromCollections: true
   <title>{{ site.title }}</title>
   <description>{{ site.description }}</description>
   <link>{{site.url}}</link>
-  <link href="{{ site.url }}feed/" rel="self"/>
   {% for article in articles %}
   <item>
     <title>{{ article.title }}</title>
