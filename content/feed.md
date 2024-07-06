@@ -2,25 +2,24 @@
 permalink: "/feed/"
 eleventyExcludeFromCollections: true
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<rss version="2.0">
+<channel>
   <title>{{ site.title }}</title>
-  <subtitle>{{ site.description }}</subtitle>
-  <link href="{{ site.url }}feed/" rel="self"/>
-  <link href="{{ site.url }}"/>
-  <id>{{ site.url }}</id>
+  <description>{{ site.description }}</description>
+  <link>{{site.url}}</link>
   <author>
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
   {% for article in articles %}
-  <entry>
+  <item>
     <title>{{ article.title }}</title>
-    <link href="{{ article.url }}"/>
-    <updated>{{ article.date_feed }}</updated>
-    <id>{{ article.url }}</id>
-    <content type="html">{{ article.description }}</content>
-  </entry>
+    <link>{{ article.url }}</link>
+    <description>{{ article.description }}</description>
+    <guid>{{ article.url }}</guid>
+    <pubDate>{{ article.date_feed }}</pubDate>
+  </item>
   {% endfor %}
-</feed>
+</channel>
+</rss>
