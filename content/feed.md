@@ -8,10 +8,6 @@ eleventyExcludeFromCollections: true
   <title>{{ site.title }}</title>
   <description>{{ site.description }}</description>
   <link>{{site.url}}</link>
-  <author>
-    <name>{{ site.author.name }}</name>
-    <email>{{ site.author.email }}</email>
-  </author>
   {% for article in articles %}
   <item>
     <title>{{ article.title }}</title>
