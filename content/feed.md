@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
   <entry>
     <title>{{ article.title }}</title>
     <link href="{{ article.url }}"/>
-    <updated>{{ article.date }}</updated>
+    <pubDate>{{ article.date_feed }}</pubDate>
     <id>{{ article.url }}</id>
     <content type="html">{{ article.description }}</content>
   </entry>
