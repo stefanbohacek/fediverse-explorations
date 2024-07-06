@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
   <title>{{ site.title }}</title>
   <description>{{ site.description }}</description>
   <link>{{site.url}}</link>
-  <atom:link href="{{site.url}}" rel="self" type="application/rss+xml" />
+  <atom:link href="{{site.url}}/feed/" rel="self" type="application/rss+xml" />
   {% for article in articles %}
   <item>
     <title>{{ article.title }}</title>
