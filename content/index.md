@@ -46,7 +46,7 @@ eleventyNavigation:
   {% for article in articles %}<div class="d-flex align-items-start mb-3">
     <div class="flex-shrink-0">
       <a href="{{ article.url }}">
-      {% if article.thumbnail %}<img class="border rounded" loading="lazy" width="120px" src="{{article.thumbnail}}" alt="{{article.thumbnail_description}}">{% else %}<img class="border rounded" loading="lazy" width="120px" src="https://generative-placeholders.glitch.me/image?width=120&height=77" alt="An abstract art placeholder image">{% endif %}
+      {% if article.thumbnail %}<img class="border rounded" loading="lazy" width="120px" src="{{article.thumbnail}}" alt="{{article.thumbnail_description}}">{% else %}<img class="border rounded" loading="lazy" width="120px" height="77px" src="https://generative-placeholders.glitch.me/image?width=120&height=77" alt="An abstract art placeholder image">{% endif %}
       </a>
     </div>
     <div class="flex-grow-1 ms-3">
