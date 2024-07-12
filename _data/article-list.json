@@ -203,5 +203,15 @@
     "date": "2023-09-26",
     "authors": ["Terence Eden"],
     "tags": []
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/custom-fediverse-emoji/",
+    "title": "Custom fediverse emoji",
+    "description": "A look at custom emoji used across the fediverse.",
+    "date": "2024-07-12",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/07/custom-fediverse-emoji-thumbnail.png",
+    "thumbnail_description": "A scatter chart showing several popular fediverse servers laid out on a grid, with x axis representing number of registered users, and y axis representing the number of custom emoji on each server. The data point for mstdn.social is highlighted showing the corresponding data and a prompt to click the data point to browse the emoji."
   }
 ]
