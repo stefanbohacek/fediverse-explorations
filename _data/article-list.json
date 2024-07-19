@@ -213,5 +213,13 @@
     "tags": [],
     "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/07/custom-fediverse-emoji-thumbnail.png",
     "thumbnail_description": "A scatter chart showing several popular fediverse servers laid out on a grid, with x axis representing number of registered users, and y axis representing the number of custom emoji on each server. The data point for mstdn.social is highlighted showing the corresponding data and a prompt to click the data point to browse the emoji."
+  },
+  {
+    "url": "https://fedidevs.com/developers-on-mastodon/",
+    "title": "Mapping Fediverse Communities",
+    "description": "A look at how people use micro-blogging for knowledge sharing.",
+    "date": "2024-04-03",
+    "authors": ["Newsmast"],
+    "tags": []
   }
 ]
