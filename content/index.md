@@ -13,7 +13,7 @@ eleventyNavigation:
       Studies, research papers, and informal polls that explore <a href="https://jointhefediverse.net/">the fediverse</a>.
     </p>
     <p class="col-md-8 fs-5">
-      Collected by <a rel="me" href="https://stefanbohacek.online/@stefan">@stefan</a>.
+      Collected by <a rel="me" href="https://stefanbohacek.online/@stefan">@stefan</a>. <a href="https://stefanbohacek.com/project/fediverse-explorations/">Learn more about this project.</a>
     </p>
     <form class="fsb-prompt">
       <label>Share this page from your fediverse server</label>
