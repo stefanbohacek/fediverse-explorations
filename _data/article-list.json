@@ -221,5 +221,15 @@
     "date": "2024-04-03",
     "authors": ["Newsmast"],
     "tags": []
+  },
+  {
+    "url": "https://stefanbohacek.com/blog/verification-in-the-fediverse/",
+    "title": "Verification in the fediverse",
+    "description": "Analysis of the link verification feature in the fediverse.",
+    "date": "2024-07-26",
+    "authors": ["Stefan Bohacek"],
+    "tags": [],
+    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2024/07/mastodon-verified-urls.png",
+    "thumbnail_description": "A tinted screenshot of a portion of a Mastodon profile page showing a list of four links, three of which are verified."
   }
 ]
