@@ -128,13 +128,13 @@
     "thumbnail_description": "TKTKTK"
   },
   {
-    "url": "https://stefanbohacek.com/blog/exploring-the-bots-people-make-and-follow-in-the-fediverse/",
-    "title": "Exploring the bots people make and follow in the fediverse",
-    "description": "A follow-up to my article on the most popular Twitter bots.",
+    "url": "https://botwiki.org/blog/what-kind-of-bots-are-posting-in-the-fediverse/",
+    "title": "What kind of bots are posting in the fediverse?",
+    "description": "Exploring the bots people make and follow in the fediverse.",
     "date": "2022-12-22",
     "authors": ["Stefan Bohacek"],
     "tags": [],
-    "thumbnail": "https://stefanbohacek.com/wp-content/uploads/2022/12/botsinspace-popular-fx-v2.jpg",
+    "thumbnail": "https://botwiki.org/wp-content/uploads/2022/12/botsinspace-popular-fx-v2.png",
     "thumbnail_description": "A tinted collage showing bots featured in the article."
   },
   {
