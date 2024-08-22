@@ -241,10 +241,18 @@
     "thumbnail_description": "A tinted screenshot of a portion of a Mastodon profile page showing a list of four links, three of which are verified."
   },
   {
+    "url": "https://fediverse-governance.github.io/",
+    "title": "Governance on Fediverse Microblogging Servers",
+    "description": "Research report on Fediverse microblogging server governance: risks and mitigations, moderation, server leadership, federated diplomacy, and governance tooling.",
+    "date": "2024-08-20",
+    "authors": ["Erin Kissane", "Darius Kazemi "],
+    "tags": []
+  },
+  {
     "url": "https://www.convivial.tools/PapersPublic/PoPETS-2024-mastodon-privacy.pdf",
     "title": "Privacy Policies on the Fediverse: A Case Study of Mastodon Instances",
     "description": "A text analysis of 351 privacy policies and a survey of 104 Mastodon administrators.",
-    "date": "2024-08-06",
+    "date": "2024-08-22",
     "authors": ["Emma Tosch", "Luis Garcia", "Cynthia Li", "Chris Martens"],
     "tags": []
   }
