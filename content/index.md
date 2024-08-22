@@ -57,7 +57,7 @@ eleventyNavigation:
       {{article.description}}
       </p>
       <p class="text-muted">
-      <small>📅  {{ article.date }} by {% for author in article.authors %}{% if forloop.last and forloop.index > 1 %} and {% endif %}{{author}}{% if not forloop.last %}, {% endif %}{% endfor %}</small>
+      <small>📅 {{ article.date }} by {% for author in article.authors %}{% if forloop.last and forloop.index > 2 %} and {% endif %}{{author}}{% if not forloop.last %}, {% endif %}{% endfor %}</small>
       </p>
     </div>
   </div>{% endfor %}
