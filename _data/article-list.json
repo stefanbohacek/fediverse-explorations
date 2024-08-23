@@ -255,5 +255,13 @@
     "date": "2024-08-22",
     "authors": ["Emma Tosch", "Luis Garcia", "Cynthia Li", "Chris Martens"],
     "tags": []
+  },
+  {
+    "url": "https://www.cell.com/patterns/fulltext/S2666-3899(23)00323-9",
+    "title": "Shifting your research from X to Mastodon? Here’s what you need to know",
+    "description": "Key differences between the fediverse and X.",
+    "date": "2024-01-12",
+    "authors": ["Roel Roscam Abbing", "Robert W. Gehl"],
+    "tags": []
   }
 ]
