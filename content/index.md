@@ -51,7 +51,8 @@ eleventyNavigation:
     </div>
     <div class="flex-grow-1 ms-3">
       <p class="fw-bold">
-        <a href="{{ article.url }}">{{article.title}}</a> <small class="text-muted">{{article.domain}}</small>
+        <a href="{{ article.url }}">{{article.title}}</a>{% if article.is_pdf %} <sup class="badge rounded-pill text-bg-secondary">PDF</sup> {% endif %}
+        <small class="text-muted">{{article.domain}}</small>
       </p>
       <p>
       {{article.description}}

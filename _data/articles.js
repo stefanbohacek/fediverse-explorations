@@ -6,7 +6,20 @@ function addLeadingZero(num) {
 
 function buildRFC822Date(dateString) {
   const dayStrings = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  const monthStrings = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const monthStrings = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
 
   const timeStamp = Date.parse(dateString);
   const date = new Date(timeStamp);
@@ -15,7 +28,9 @@ function buildRFC822Date(dateString) {
   const dayNumber = addLeadingZero(date.getDate());
   const month = monthStrings[date.getMonth()];
   const year = date.getFullYear();
-  const time = `${addLeadingZero(date.getHours())}:${addLeadingZero(date.getMinutes())}:00`;
+  const time = `${addLeadingZero(date.getHours())}:${addLeadingZero(
+    date.getMinutes()
+  )}:00`;
   const timezone = date.getTimezoneOffset() === 0 ? "GMT" : "BST";
 
   return `${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`;
@@ -40,10 +55,10 @@ articles
       month: "long",
       day: "numeric",
     });
-
     article.date_feed = buildRFC822Date(article.date);
     const { hostname } = new URL(article.url);
     article.domain = hostname;
+    article.is_pdf = article.url.endsWith(".pdf");
   });
 
 module.exports = () => {
