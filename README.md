@@ -1,8 +1,6 @@
-# Project name
+# Fediverse Explorations
 
-<img width="500" src="public/images/thumbnail.png" alt="ALT_TEXT">
-
-
+<img width="500" src="public/images/thumbnail.png" alt="The text 'Fediverse Explorations' written in dark color on a light background.">
 
 ## Development
 
