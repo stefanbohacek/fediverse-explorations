@@ -263,5 +263,14 @@
     "date": "2024-01-12",
     "authors": ["Roel Roscam Abbing", "Robert W. Gehl"],
     "tags": []
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s13278-024-01341-7",
+    "title": "An analysis of Mastodon adoption dynamics based on instance types",
+    "description": "A time-based dynamics analysis of various Mastodon instances.",
+    "format": "pdf",
+    "date": "2024-09-07",
+    "authors": ["Eduard Sabo", "Tim Gesthuizen", "Kelvin J. A. Bouma", "Dimka Karastoyanova", "Mirela Riveni"],
+    "tags": []
   }
 ]

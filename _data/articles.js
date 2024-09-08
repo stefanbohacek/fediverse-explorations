@@ -58,7 +58,7 @@ articles
     article.date_feed = buildRFC822Date(article.date);
     const { hostname } = new URL(article.url);
     article.domain = hostname;
-    article.is_pdf = article.url.endsWith(".pdf");
+    article.is_pdf = article.url.endsWith(".pdf") || article?.format === "pdf";
   });
 
 module.exports = () => {
