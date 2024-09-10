@@ -272,5 +272,14 @@
     "date": "2024-09-07",
     "authors": ["Eduard Sabo", "Tim Gesthuizen", "Kelvin J. A. Bouma", "Dimka Karastoyanova", "Mirela Riveni"],
     "tags": []
+  },
+  {
+    "url": "https://arxiv.org/html/2406.04005v1",
+    "title": "The Failed Migration of Academic Twitter",
+    "description": "A look at the dynamics of the migration of people in academia from Twitter to Mastodon.",
+    "format": "pdf",
+    "date": "2024-06-06",
+    "authors": ["Xinyu Wang", "Sarah Rajtmajer", "Sai Koneru"],
+    "tags": []
   }
 ]
