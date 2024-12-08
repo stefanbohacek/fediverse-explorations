@@ -88,9 +88,9 @@
     "thumbnail_description": "A cropped screenshot of a graph chart showing relationship between my bots and their followers. Each bot is represented by a circle corresponding to the number of followers, and is connected to dots representing them."
   },
   {
-    "url": "https://stefanbohacek.com/blog/alttexthealthcheck-image-accessibility-report-1/",
-    "title": "Alt Text Health Check image accessibility report #1",
-    "description": "Looking at a growing trend of images being posted without a description.",
+    "url": "https://stefanbohacek.com/tag/alt-text-health-check-report/",
+    "title": "Alt Text Health Check image accessibility reports",
+    "description": "A series of reports looking at the rate of images posted with and without description.",
     "date": "2023-10-26",
     "authors": ["Stefan Bohacek"],
     "tags": [],
