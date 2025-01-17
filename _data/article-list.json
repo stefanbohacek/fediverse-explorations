@@ -290,5 +290,13 @@
     "date": "2024-12-23",
     "authors": ["Stefan Bohacek"],
     "tags": []
+  },
+  {
+    "url": "https://blog.benjojo.co.uk/post/who-hosts-the-fediverse-instances",
+    "title": "Where is all of the fediverse?",
+    "description": "A look at how (physically) decentralised the fediverse really is.",
+    "date": "2024-01-12",
+    "authors": ["Ben Cox"],
+    "tags": []
   }
 ]
