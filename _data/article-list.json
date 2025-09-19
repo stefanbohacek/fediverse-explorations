@@ -298,5 +298,13 @@
     "date": "2024-01-12",
     "authors": ["Ben Cox"],
     "tags": []
+  },
+  {
+    "url": "https://blog.benjojo.co.uk/post/who-hosts-the-fediverse-instances",
+    "title": "Who moderates my posts and timeline?",
+    "description": "This tool helps you see how moderation choices made by different communities on the Fediverse affect what shows up in your own personal timeline.",
+    "date": "2025-09-19",
+    "authors": ["Rob Ricci"],
+    "tags": []
   }
 ]
