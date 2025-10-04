@@ -306,5 +306,13 @@
     "date": "2025-09-19",
     "authors": ["Rob Ricci"],
     "tags": []
+  },
+  {
+    "url": "https://openjournals.uwaterloo.ca/index.php/JoCI/article/view/6644",
+    "title": "Pin the tail on the researcher: From distributed to meshy accountability in decentralized social media",
+    "description": "Exploring the potentials and perils of alternative social media, through a firsthand account of targeted harassment on Mastodon",
+    "date": "2025-09-22",
+    "authors": ["Christina Dunbar-Hester"],
+    "tags": []
   }
 ]
