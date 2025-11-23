@@ -26,7 +26,7 @@ eleventyNavigation:
           class="fsb-input fsb-domain"
           aria-label="Server domain">
         <button class="fsb-button"
-          type="submit"><img src="https://fediverse-share-button.stefanbohacek.com/fediverse-share-button/icons/mastodon.svg"
+          type="submit"><img width="16px" src="https://fediverse-share-button.stefanbohacek.com/fediverse-share-button/icons/mastodon.svg"
             class="fsb-icon"></span>Share</button>
       </div>
       <p class="fsb-support-note fsb-d-none">This server does not support sharing. Please visit <a
